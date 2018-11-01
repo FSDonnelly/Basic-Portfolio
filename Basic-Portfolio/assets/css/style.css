@@ -20,9 +20,9 @@ h1,h2,h3,h4,h5,h6{
 }
 
 header{
-background: white;
-border-bottom: 3px solid #ccc;
-margin-bottom: 30px;
+    background: white;
+    border-bottom: 3px solid #ccc;
+    margin-bottom: 30px;
 }
 
 header h1{
@@ -115,6 +115,27 @@ footer{
 
 }
 
+.portfolio-item{
+    position: relative;
+    background-color: rgba(0,0,0,.5);
+    margin-bottom: 20px;
+    width: 45%;
+    float: left;
+    height: 250px;
+    }
+
+.portfolio-item:nth-of-type(even){
+        float: right;
+    }
+
+.portfolio-item h4{
+    background: #4aaaa5;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: absolute;
+    width: 100%;
+}
 .clearfix{
     display: block;
     clear: both;
@@ -176,4 +197,35 @@ right-column ul li img {
 
 #gmail{
     float: left;
+}
+
+#port1{
+    background: url(../image/port1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#port2{
+    background: url(../image/port2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#port3{
+    background: url(../image/port3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#port4{
+    background: url(../image/port4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#port5{
+    background: url(../image/port5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#port6{
+    background: url(../image/port6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
