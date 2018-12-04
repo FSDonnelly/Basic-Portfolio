@@ -225,22 +225,22 @@ right-column ul li img:hover{
 }
 
 #port1{
-    background: url(../image/port1.jpg);
+    background: url(../image/foodbg.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 #port2{
-    background: url(../image/port2.jpg);
+    background: url(../image/trivia.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 #port3{
-    background: url(../image/port3.jpg);
+    background: url(../image/hangman.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 #port4{
-    background: url(../image/port4.jpg);
+    background: url(../image/giftastic.gif);
     background-size: cover;
     background-repeat: no-repeat;
 }
