@@ -178,7 +178,10 @@ footer{
     width: 270px;
     float: right;
 }
-
+#codeLink {
+    background-color:  #4aaaa5;
+    color:white;
+}
 right-column h3{
     font-size: 20px;
     padding: 15px 0px;
